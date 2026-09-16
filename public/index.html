@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>★ 85班</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><div class="brand">★ 85班</div><input id="search" placeholder="搜索帖子…"><nav><button onclick="openMessages()">私信</button><button onclick="openProfile()">我的</button><button onclick="toggleDark()">◐</button></nav></header>
+<main><section class="composer"><textarea id="content" placeholder="分享你想说的话……"></textarea><div class="composeBottom"><label class="file">＋图片<input id="image" type="file" accept="image/*"></label><button class="primary" onclick="postIt()">发布</button></div></section>
+<div id="notice"></div><div class="tabs"><button data-sort="new" class="active">最新</button><button data-sort="hot">热门</button><button data-sort="mine">我的</button></div><section id="posts"></section></main>
+<div id="modal" class="modal"></div><div id="toast"></div><script src="/app.js"></script></body></html>
